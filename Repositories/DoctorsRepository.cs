@@ -15,7 +15,7 @@ namespace MnM.Repositories
         }
 
 
-        internal IEnumerable<Doctor> GetAll()
+        internal List<Doctor> GetAll()
         {
             string sql = @"
             SELECT 
@@ -27,7 +27,7 @@ namespace MnM.Repositories
             {
                 doctor.Creator = profile;
                 return doctor;
-            }, splitOn: "id");
+            }, splitOn: "id").ToList();
         }
 
         internal Doctor GetById(int id)

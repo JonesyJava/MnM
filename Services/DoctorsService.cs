@@ -14,9 +14,10 @@ namespace MnM.Services
             _drepo = drepo;
         }
 
-        internal IEnumerable<Doctor> GetAll()
+        internal List<Doctor> GetAll()
         {
-            return _drepo.GetAll();
+            List<Doctor> doctors = _drepo.GetAll();
+            return doctors.FindAll(d => d.Specialty == d.Specialty);
         }
 
         internal Doctor GetById(int id)

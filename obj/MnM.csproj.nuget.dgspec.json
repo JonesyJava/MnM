@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\source\\CSharp\\MnM\\MnM.csproj": {}
+    "c:\\source\\CSharp\\MnM\\MnM.csproj": {}
   },
   "projects": {
-    "C:\\source\\CSharp\\MnM\\MnM.csproj": {
+    "c:\\source\\CSharp\\MnM\\MnM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\source\\CSharp\\MnM\\MnM.csproj",
+        "projectUniqueName": "c:\\source\\CSharp\\MnM\\MnM.csproj",
         "projectName": "MnM",
-        "projectPath": "C:\\source\\CSharp\\MnM\\MnM.csproj",
+        "projectPath": "c:\\source\\CSharp\\MnM\\MnM.csproj",
         "packagesPath": "C:\\Users\\maj21\\.nuget\\packages\\",
-        "outputPath": "C:\\source\\CSharp\\MnM\\obj\\",
+        "outputPath": "c:\\source\\CSharp\\MnM\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\maj21\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -53,6 +53,10 @@
             "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "MySqlConnector": {
               "target": "Package",

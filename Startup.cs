@@ -43,8 +43,6 @@ namespace MnM
             services.AddTransient<PatientsService>();
             services.AddTransient<PatientsRepository>();
 
-
-
         }
 
         private void ConfigureCors(IServiceCollection services)

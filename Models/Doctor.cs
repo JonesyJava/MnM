@@ -9,7 +9,6 @@ namespace MnM.Models
         [MinLength(3)]
         public string Name { get; set; }
         public string Specialty { get; set; }
-        public float Price { get; set; }
         // CreatorId ONLY NEEDED with Auth0
         public string CreatorId { get; set; }
         //  Creator ONLY NEEDED with AUTH0

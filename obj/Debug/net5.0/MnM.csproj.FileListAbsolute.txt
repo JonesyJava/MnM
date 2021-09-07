@@ -30,3 +30,4 @@ C:\source\CSharp\MnM\obj\Debug\net5.0\MnM.dll
 C:\source\CSharp\MnM\obj\Debug\net5.0\ref\MnM.dll
 C:\source\CSharp\MnM\obj\Debug\net5.0\MnM.pdb
 C:\source\CSharp\MnM\obj\Debug\net5.0\MnM.genruntimeconfig.cache
+C:\source\CSharp\MnM\bin\Debug\net5.0\MySqlConnector.dll

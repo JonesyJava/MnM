@@ -38,9 +38,21 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "CodeWorks.Auth0Provider": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
             "Dapper": {
               "target": "Package",
               "version": "[2.0.90, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             },
             "MySqlConnector": {
               "target": "Package",

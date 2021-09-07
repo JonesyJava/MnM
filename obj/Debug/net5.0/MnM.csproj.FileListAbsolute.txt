@@ -21,9 +21,6 @@ C:\source\CSharp\MnM\obj\Debug\net5.0\MnM.AssemblyInfo.cs
 C:\source\CSharp\MnM\obj\Debug\net5.0\MnM.csproj.CoreCompileInputs.cache
 C:\source\CSharp\MnM\obj\Debug\net5.0\MnM.MvcApplicationPartsAssemblyInfo.cs
 C:\source\CSharp\MnM\obj\Debug\net5.0\MnM.MvcApplicationPartsAssemblyInfo.cache
-C:\source\CSharp\MnM\obj\Debug\net5.0\staticwebassets\MnM.StaticWebAssets.Manifest.cache
-C:\source\CSharp\MnM\obj\Debug\net5.0\staticwebassets\MnM.StaticWebAssets.xml
-C:\source\CSharp\MnM\obj\Debug\net5.0\scopedcss\bundle\MnM.styles.css
 C:\source\CSharp\MnM\obj\Debug\net5.0\MnM.RazorTargetAssemblyInfo.cache
 C:\source\CSharp\MnM\obj\Debug\net5.0\MnM.csproj.CopyComplete
 C:\source\CSharp\MnM\obj\Debug\net5.0\MnM.dll
@@ -41,3 +38,14 @@ C:\source\CSharp\MnM\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdCo
 C:\source\CSharp\MnM\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\source\CSharp\MnM\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\source\CSharp\MnM\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\source\CSharp\MnM\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\source\CSharp\MnM\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\source\CSharp\MnM\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\source\CSharp\MnM\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\source\CSharp\MnM\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\source\CSharp\MnM\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\source\CSharp\MnM\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\source\CSharp\MnM\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\source\CSharp\MnM\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\source\CSharp\MnM\obj\Debug\net5.0\MnM.RazorAssemblyInfo.cache
+C:\source\CSharp\MnM\obj\Debug\net5.0\MnM.RazorAssemblyInfo.cs

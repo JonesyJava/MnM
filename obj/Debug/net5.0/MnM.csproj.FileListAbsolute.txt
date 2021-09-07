@@ -31,3 +31,13 @@ C:\source\CSharp\MnM\obj\Debug\net5.0\ref\MnM.dll
 C:\source\CSharp\MnM\obj\Debug\net5.0\MnM.pdb
 C:\source\CSharp\MnM\obj\Debug\net5.0\MnM.genruntimeconfig.cache
 C:\source\CSharp\MnM\bin\Debug\net5.0\MySqlConnector.dll
+C:\source\CSharp\MnM\bin\Debug\net5.0\CodeWorks.Auth0Provider.dll
+C:\source\CSharp\MnM\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\source\CSharp\MnM\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\source\CSharp\MnM\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\source\CSharp\MnM\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\source\CSharp\MnM\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\source\CSharp\MnM\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\source\CSharp\MnM\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\source\CSharp\MnM\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\source\CSharp\MnM\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll

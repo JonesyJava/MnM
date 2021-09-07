@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FWnZsxVi4gN8VwzzBxOJCw6PbttyCzr6s68iT0hAkAKRX60BZiywuk2NEOQuQ37FNWtzccwoEp45E/Sxb2Hg4Q==",
+  "dgSpecHash": "d7e+lQy7cTvnORYVc/mi8V13rF/q/fjkbQY6hQ3PRKrNLe8P7f9XQWC4z0IMN328SEFKvNWvIL+ghDOslIhL9g==",
   "success": true,
-  "projectFilePath": "c:\\source\\CSharp\\MnM\\MnM.csproj",
+  "projectFilePath": "C:\\source\\CSharp\\MnM\\MnM.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\maj21\\.nuget\\packages\\codeworks.auth0provider\\1.0.3\\codeworks.auth0provider.1.0.3.nupkg.sha512",
     "C:\\Users\\maj21\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",

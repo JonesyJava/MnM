@@ -21,5 +21,15 @@ CREATE TABLE patients (
   PRIMARY KEY (id),
   FOREIGN KEY (creatorId) REFERENCES profiles (id) ON DELETE CASCADE
 );
+CREATE TABLE appointments (
+  id INT NOT NULL AUTO_INCREMENT,
+  doctorId INT,
+  patientId INT,
+  creatorId VARCHAR(255),
+  PRIMARY KEY (id),
+  FOREIGN KEY (creatorId) REFERENCES profiles (id) ON DELETE CASCADE,
+  FOREIGN KEY (doctorId) REFERENCES doctors (id) ON DELETE CASCADE,
+  FOREIGN KEY (patientId) REFERENCES patients (id) ON DELETE CASCADE
+);
 DROP TABLE doctors;
 DROP TABLE patients;

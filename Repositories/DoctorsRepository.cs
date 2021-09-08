@@ -78,6 +78,20 @@ namespace MnM.Repositories
         }
 
 
+        ///<summary>
+        /// Our Sql statement takes all of our Profile information
+        /// It then sets our appt.id and JOINS our DOCTORS ID and PATIENTS ID to the table
+        ///</summary>
+        internal IEnumerable<AppointmentViewModel> GetDoctorByPatientId(int id)
+        {
+            string sql = @"SELECT 
+            p.*,
+            appt.id AS AppointmentId
+            FROM appointments appt
+            JOIN doctors d ON d.id = appt.doctorId
+            WHERE patientId = @id;";
+            return _db.Query<AppointmentViewModel>(sql, new { id });
+        }
 
     }
 }

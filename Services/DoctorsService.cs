@@ -58,5 +58,15 @@ namespace MnM.Services
             _drepo.Delete(id);
             return "delorted";
         }
+
+
+        ///<summary>
+        /// Many to Many 
+        /// This points towards out Doctor Repo and uses the Appointment View Model representing our relationship model
+        ///</summary>
+        internal IEnumerable<AppointmentViewModel> GetDoctorByPatientId(int id)
+        {
+            return _drepo.GetDoctorByPatientId(id);
+        }
     }
 }

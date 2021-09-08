@@ -13,12 +13,12 @@ namespace MnM.Controllers
     [Route("api/[controller]")]
     public class PatientsController : ControllerBase
     {
-        private readonly AppointmentsService _apserv;
+        private readonly DoctorsService _dserv;
         private readonly PatientsService _pserv;
 
-        public PatientsController(AppointmentsService apserv, PatientsService pserv)
+        public PatientsController(DoctorsService dserv, PatientsService pserv)
         {
-            _apserv = apserv;
+            _dserv = dserv;
             _pserv = pserv;
         }
 
@@ -97,6 +97,20 @@ namespace MnM.Controllers
                 //NOTE send userinfo.id so you can validate they are the creator of the original
 
                 return Ok(_pserv.Delete(id, userInfo.Id));
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+        }
+
+
+        [HttpGet("{id}/doctors")]  // NOTE '{}' signifies a var parameter
+        public ActionResult<IEnumerable<AppointmentViewModel>> GetDoctorByPatientId(int id)
+        {
+            try
+            {
+                return Ok(_dserv.GetDoctorByPatientId(id));
             }
             catch (Exception e)
             {

@@ -23,4 +23,3 @@ CREATE TABLE patients (
 );
 DROP TABLE doctors;
 DROP TABLE patients;
-DROP TABLE appointments;
